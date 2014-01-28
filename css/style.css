@@ -1,0 +1,62 @@
+/*
+Style.css
+Author: William Ogden
+Date:Jan 2013
+Purpose: Css for the Project Manager
+*/
+
+
+body {
+	font-family:Arial,Helvetica,sans-serif;
+	}
+	
+
+h3 {display:inline;}
+h4 {display:inline;}
+
+p {
+	width:400px;
+}
+
+ul {
+    list-style-type: none;
+	margin: .5em; 
+	padding: .5em;
+}
+
+li.goals {
+    background-color:#DEE7EF;
+}
+
+li.main {
+    background-color:#5A79A5;
+}
+
+li {
+    list-style-type: none;
+	background-color:#9CAAC6;
+	margin: .5em; 
+	padding: .5em;
+	border:2px solid;
+	border-radius:20px;
+}
+
+.right {
+	float:right;
+}
+
+.addGoal {
+	vertical-align:top;
+}
+
+.grey {
+	opacity: 0.4;	
+}
+
+#explaination{
+	text-align:center;
+}
+
+.small {
+	font-size:80%;
+}
